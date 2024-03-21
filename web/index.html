@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario</h1><br/>
+
+    <h2>Cadastro</h2><br/>
+
+    <form>
+        <fieldset>
+            <label name="Nome">Nome</label><br/>
+            <input name="Nome" type="text"><br/>
+
+            <label name="Email">Email</label><br/>
+            <input name="Email" type="email"><br/>
+
+            <label name="Senha">Senha</label><br/>
+            <input name="Senha" type="password"><br/>
+
+            <label name="Sexo">Sexo</label><br/>
+
+            <input type="radio" id="masculo" name="fav_language" value="Masculino">
+            <label for="Masculino">Masculino</label> <br/>
+
+            <input type="radio" id="feminino" name="fav_language" value="feminino">
+            <label name="feminino">Feminino</label><br/>
+
+            <label name="escolaridade">Escolaridade</label><br/>
+
+            <select name="escolaridade">
+                <option value="selecionar escolaridade">Selecionar a Escolaridade: </option> 
+                <option value="ensino fundamental incompleto">Ensino Fundamental Incompleto</option>
+                <option value="ensino fundamental completo">Ensino Fundamental Completo</option>
+                <option value="ensino medio incompleto">Ensino Medio Incompleto</option>
+                <option value="esnino medio completo">Ensino Medio Completo</option>
+                <option value="ensino superior incompleto">Ensino Superior  Incompleto </option> 
+                <option value="ensino superior completo">Ensino Superior Completo</option>
+                <option value="posgraduacao">Pós-Graduação</option>
+            </select><br/>
+            <br/>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
